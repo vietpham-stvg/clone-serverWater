@@ -1,7 +1,10 @@
+using clone_serverWater.APIs;
+
 namespace clone_serverWater
 {
     public class Program
     {
+        public static MyUser api_user{ get; set; }
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
